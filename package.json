@@ -1,0 +1,20 @@
+{
+  "name": "idt-docs",
+  "version": "1.0.0",
+  "description": "idt-docs ",
+  "main": "index.js",
+  "scripts": {
+    "build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-katex": "^2.0.3",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-feed": "^0.1.8",
+    "vuepress-theme-meteorlxy": "^1.7.1"
+  }
+}
